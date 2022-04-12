@@ -1,0 +1,291 @@
+/* ---Global--- */
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        overflow-x: hidden;
+        font-family: 'Roboto', sans-serif;
+    }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ---Header Start--- */
+    nav{
+        width: 100%;
+        display: flex;
+        padding: 1% 4%;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px; 
+        background-color: #e4c2c1;
+    }
+
+    .nav_panel{
+        flex: 1;
+        text-align: right;
+    }
+
+    .nav_panel ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px 14px;
+        position: relative;
+    }
+
+    .nav_panel ul li a{
+        color: #000000;
+        text-decoration: none;
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    nav h1 a{
+        color: #000000;
+        text-decoration: none;
+        font-size: 45px;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .nav_panel ul li::after{
+        content:"";
+        width: 0px;
+        height: 3px;
+        display: block;
+        margin: auto;
+        background: red;
+    }
+
+    .nav_panel ul li:hover::after{
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .menu_button{
+        height: 20px;
+        width: 20px;
+    }
+
+    nav .menu_button{
+        display: none;
+    }
+/* ---Header End--- */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ---Category Start--- */
+.title{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.title h1{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.filter{
+    font-size: 18px;
+    margin: 0px 5px;
+}
+
+.button{
+    margin: 0px 6px;
+}
+
+.input{
+    width: 150px;
+    height: 22px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.filter_btn{
+    width: 90px;
+    height: 24px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    background-color: #f7d3d4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter_btn:hover{
+    background-color: #e4c2c1;
+    transition: 0.5s;
+}
+/* ---Category End--- */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ---Product Section Start--- */
+main .container .product{
+    flex: 1 1 75%;
+    padding: 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+main .container .product .row{
+    display: flex;
+    gap: 20px;
+}
+
+main .container .product .row .column{
+    flex-basis: 100%;
+    min-width: 230px;
+    max-width: 230px;
+    height: 320px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.column h3{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.column img{
+    width: 170px;
+    height: 200px;
+    padding: 5px;
+}
+
+main .container .product .row .column a{
+    text-decoration: none;
+    color: #000000;
+}
+/* ---Product Section End--- */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ---Pagination Start--- */
+.pagination {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+  
+.pagination a {
+    color: black;
+    float:left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color .3s;
+}
+
+.pagination a:hover{
+    background-color: #ddd;
+}
+
+.page_box::after{
+    content:"";
+    width: 25px;
+    height: 5px;
+    display: block;
+    margin: auto;
+    background: red;
+}
+
+/* ---Pagination End--- */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ----Responsive Design Start---- */
+@media (max-width:780px){
+
+   /* ----Navigational Panel Start--- */
+    .home_text h1{
+        font-size: 34px;
+    }
+
+    .home_text h2{
+        margin: 25px 0px;
+        font-size: 25px;
+        line-height: 1;
+    }
+
+    .nav_panel{
+        position: absolute;
+        background: rgb(70, 196, 247);
+        height: 100%;
+        width: 200px;
+        top: 0px;
+        right: -300px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.8s;
+    }
+
+    .nav_panel ul li{
+        display: block;
+        text-align: center;
+    }
+
+    nav .menu_button{
+        display: block;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .nav_panel ul{
+        margin-top: 40px;
+        margin-left: 10px;
+        line-height: 2.0;
+    }
+
+    .home_text{
+        top: 50%;
+        left: 50%;
+    }
+    /* ---Navigational Panel End--- */
+}
+
+/* ---Product Section Start--- */
+@media (max-width:1100px){
+    main .container .product .row{
+        flex-wrap: wrap;
+        /* max-width: 800px; */
+        margin: auto;
+    }
+}
+
+@media (max-width:790px){
+    main .container .product .row{    
+        max-width: 300px;
+        }
+
+    main .container .product .row .column{
+        margin: 10px auto;
+    } 
+}  
+
+@media (max-width:560px){
+    .form{
+        display: block;
+    }
+
+    .button{
+        margin: 10px 0px;
+    }
+    /* ---Product Section End--- */
+}

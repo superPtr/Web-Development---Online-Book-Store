@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #0063A0;
+}
+
+.content{
+    margin-left: 100px;
+}
+
+.split{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+.split h3{
+    margin-right: 20px;
+}
+
+.split h3, .split p{
+    font-size: 20px;
+    color: #0063A0;
+    font-family: 'Questrial', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: 40px;
+    margin-top: -10px;
+    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
+    color: #0063A0;
+    font-family: 'Questrial', sans-serif;
+}
+table .date{
+    width: 140px;
+}
+
+table .data{
+    width: 320px;
+    padding: 10px;
+}
+
+table .report{
+    width: 100px;
+}
+
+table .view{
+    width: 80px;
+}
+
+table td{
+    padding: 5px;
+}
+
+/* ------------------ */
+
+/* h2{
+    font-family: 'Poppins', sans-serif;
+    color: #0063A0;
+    font-size: 30px;
+}
+
+label, select, .empty, h3{
+    color: #0063A0;
+    font-family: 'Questrial', sans-serif;
+}
+
+select{
+    font-size: 16px;
+}
+
+.empty{
+    font-size: 15px;
+    line-height: 10px;
+    margin-top: 10px;
+}
+
+h2, h3, .empty{
+    margin-left: 30px;
+}
+
+.input{
+    margin: 30px 0px 30px 30px
+}
+
+label{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+select{
+    width: 180px;
+    text-align: center;
+    height: 25px;
+    margin-top: -4px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.empty{
+    margin-bottom: 100px;
+    width: 500px;
+    height: 200px;
+    font-size: 15px;
+} */
+
+/* h2{
+    margin-left: 58px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #0063A0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rec{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 22px auto;
+    color: #0063A0;
+    font-family: 'Questrial', sans-serif;
+    line-height: 1.15;
+}
+
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    color: #0063A0;
+    font-family: 'Questrial', sans-serif;
+}
+
+h3{
+    margin-right: 15px;
+}
+
+p{
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+table th{
+    padding: 15px;
+}
+
+table td{
+    padding: 10px;
+}
+
+table .title{
+    width: 170px;
+}
+
+table .date{
+    width: 180px;
+}
+
+table .stat{
+    width: 100px;
+}
+
+.desc{
+    margin-left: 58px;
+    font-size: 22px;
+    margin-top: 20px;
+    color: #0063A0;
+    font-family: 'Questrial', sans-serif;
+}
+
+.empty{
+    margin-left: 58px;
+    margin-top: 15px;
+    width: 948px;
+    height: 200px;
+    margin-bottom: 100px;
+    font-size: 14px;
+    color: #0063A0;
+    font-family: 'Questrial', sans-serif;
+} */

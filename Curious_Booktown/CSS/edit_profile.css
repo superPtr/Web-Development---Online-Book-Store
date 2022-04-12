@@ -1,0 +1,61 @@
+body{
+    overflow-x: hidden;
+    background: url("../Images/edit_profile.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box{
+    width: 700px;
+    height: 600px;
+    border-color: rgba(64,64,64);
+    border-width: 6px;
+    border-style: solid;
+    margin: auto auto;
+    margin-top: 200px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.8);
+
+    
+}
+.box h1{
+    text-align: center;
+}
+#storename{
+    font-size: 50px;
+    font-family: 'Dancing Script',cursive;
+    font-weight: 900;
+    padding-left: 30px;
+    margin-bottom: 3px;
+    margin-top: 20px;
+
+}
+.form{
+    font-size: 20px;
+    padding-left: 70px;
+    margin-top: 60px;
+}
+.edit_pff{
+    display: flex;
+}
+.edit_title{
+    margin-top: 6px;
+    width: 140px;
+}
+.form p{
+    font-size: 14px;
+    color: red;
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.inputbox{
+    border-radius: 5px;
+    height: 30px;
+    width: 350px;
+    margin-left: 30px;
+    padding-left: 10px;
+}

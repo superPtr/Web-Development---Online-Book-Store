@@ -1,0 +1,109 @@
+/* ---Global--- */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*--- Back button start ---*/
+.back{
+    width: 120px;
+    padding: 5px;
+    margin: 30px;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #fff;
+    background-color: rgb(103, 207, 248);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.back a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.back:hover{
+    background-color: rgb(105, 194, 230);
+    transition: 0.5s;
+}
+/*--- Back button end ---*/
+
+/* ---Form Section Start--- */
+label{
+    font-size: 18px;
+}
+
+.container{
+    width: 80%;
+    margin: 2% auto;
+}
+
+.content{
+    margin: 20px 20px;
+    width: auto;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+}
+
+.content p{
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.content label{
+    font-size: 24px;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+button{
+    padding: 8px;
+    width: 150px;
+    margin: 10px 0px;
+}
+
+#desc{
+    height:200px;
+}
+#desc_box{
+    height: 120px;
+}
+.update{
+    display: block;
+    padding: 8px;
+    width: 150px;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    margin: auto auto;
+    background-color: #fdbbb7;
+}
+.update:hover{
+    background-color: #daa4a2;
+    transition: 0.5s;
+}
+
+    
+/* ---Form Section End--- */

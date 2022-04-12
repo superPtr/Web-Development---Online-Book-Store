@@ -1,0 +1,145 @@
+/* ---Global--- */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/book_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*--- Back button start ---*/
+.back{
+    width: 120px;
+    padding: 5px;
+    margin: 30px;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #fff;
+    background-color: rgb(103, 207, 248);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.back a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.back:hover{
+    background-color: rgb(105, 194, 230);
+    transition: 0.5s;
+}
+/*--- Back button end ---*/
+
+/* ---Form Section Start--- */
+label{
+    font-size: 18px;
+}
+
+.container{
+    width: 50%;
+    margin: 2% auto;
+    margin-top: 13px;
+}
+
+.content{
+    margin: 18px 20px;
+    width: auto;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+    
+}
+
+.submit_button{
+    border-width: 1px;
+    font-family: 'Times New Roman';
+    font-size: 20px ;
+    margin-left: 40%;
+    background-color: rgb(255,255,255,0.7);
+    transition: 0.7s;
+}
+
+.submit_button:hover{
+    background-color: rgb(255,255,255,1);
+    transition: 0.7s;
+}
+
+.close_button{
+    height: 40px;
+    width: 40px;
+    margin-left: 90%;
+    margin-bottom: -5px;
+    font-size: 20px;
+    font-weight:900;
+    border-radius: 50%;
+    background-color: transparent;
+    border-color: black;
+    border-width: 3px;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+.close_button:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.form{
+    margin-top: 0px;
+}
+
+.content p{
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.content label{
+    font-size: 24px;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+button{
+    padding: 8px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#desc{
+    height: 300px;
+}
+#desc_box{
+    height: 200px;
+}
+
+@media (max-width:1500px){
+    .container{
+        width: 70%;
+    }
+}
+
+@media (max-width:700px){
+    .container{
+        width: 90%;
+    }
+}
+/* ---Form Section End--- */
