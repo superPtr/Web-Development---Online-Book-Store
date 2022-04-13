@@ -7,7 +7,7 @@ This project is build on XAMPP, thus you have to put entire folder into XAMPP-ht
 ## About
 This project is going to build a website for a book store called Curious Booktown to help them in e-commerce.
 
-## Several example of interfaces
+## Several example of website interfaces
 ![welcomepage](https://user-images.githubusercontent.com/65766676/163081441-f121f200-aeee-4597-ac58-09b546eafb04.jpg)
 ![productpage](https://user-images.githubusercontent.com/65766676/163081454-d24db4a9-6bad-416f-b04a-4d1d6891e88c.jpg)
 ![cartpage](https://user-images.githubusercontent.com/65766676/163081463-d5b2ab29-936a-4de0-8aab-7e1ce298a964.jpg)
